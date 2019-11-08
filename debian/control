@@ -1,0 +1,12 @@
+Source: ros-melodic-os1-driver
+Section: misc
+Priority: optional
+Maintainer: Daniel D'Souza <daniel.dsouza@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libjsoncpp-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-image-transport, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-swri-nodelet, ros-melodic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-os1-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjsoncpp-dev, ros-melodic-geometry-msgs, ros-melodic-image-transport, ros-melodic-message-runtime, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-swri-nodelet, ros-melodic-tf2-ros
+Description: The os1_driver package
