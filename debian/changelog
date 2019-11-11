@@ -1,0 +1,45 @@
+ros-melodic-os1-driver (0.0.5-1bionic) bionic; urgency=high
+
+  * Merge pull request #7 <https://github.com/swri-robotics/os1_driver/issues/7> from swri-robotics/sync-dependencies-to-packagexml
+    added tf2_geometry_msgs to package.xml
+  * added tf2_geometry_msgs to package.xml
+  * Contributors: Daniel D'Souza
+
+ -- Daniel D'Souza <daniel.dsouza@swri.org>  Mon, 11 Nov 2019 06:00:00 -0000
+
+ros-melodic-os1-driver (0.0.4-1bionic) bionic; urgency=high
+
+  * Merge pull request #6 <https://github.com/swri-robotics/os1_driver/issues/6> from swri-robotics/add-tbb-dependency
+    add tbb dependency to package.xml
+  * add tbb dependency to package.xml
+  * Contributors: Daniel D'Souza
+
+ -- Daniel D'Souza <daniel.dsouza@swri.org>  Mon, 11 Nov 2019 06:00:00 -0000
+
+ros-melodic-os1-driver (0.0.3-1bionic) bionic; urgency=high
+
+  * update jsoncpp dependency
+  * Contributors: Daniel D'Souza
+
+ -- Daniel D'Souza <daniel.dsouza@swri.org>  Fri, 08 Nov 2019 06:00:00 -0000
+
+ros-melodic-os1-driver (0.0.2-1bionic) bionic; urgency=high
+
+  * Merge pull request #5 <https://github.com/swri-robotics/os1_driver/issues/5> from swri-robotics/4-fix-nodelet-issues
+    WIP: implement shared pointers to make zero copy work, fix startup issues.
+  * fixed spelling errors, removed commented code
+  * updated driver to use shared pointers
+  * this works, but I'm not sure why the shared ptr messages does not...
+  * needs testing
+  * fix nodelet hanging issue
+  * Merge pull request #3 <https://github.com/swri-robotics/os1_driver/issues/3> from swri-robotics/1-fix-documentation
+    changed udp_dest to udp_destination
+  * changed udp_dest to udp_destination
+  * removed empty tgz
+  * ready for release
+  * Initial commit
+  * Contributors: Daniel D'Souza
+
+ -- Daniel D'Souza <daniel.dsouza@swri.org>  Fri, 08 Nov 2019 06:00:00 -0000
+
+
