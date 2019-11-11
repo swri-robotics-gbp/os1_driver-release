@@ -1,0 +1,12 @@
+Source: ros-kinetic-os1-driver
+Section: misc
+Priority: optional
+Maintainer: Daniel D'Souza <daniel.dsouza@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libjsoncpp-dev, libtbb-dev, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-nodelet, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-swri-nodelet, ros-kinetic-tf2-geometry-msgs, ros-kinetic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-os1-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjsoncpp-dev, libtbb-dev, ros-kinetic-geometry-msgs, ros-kinetic-image-transport, ros-kinetic-message-runtime, ros-kinetic-nodelet, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-swri-nodelet, ros-kinetic-tf2-geometry-msgs, ros-kinetic-tf2-ros
+Description: The os1_driver package
