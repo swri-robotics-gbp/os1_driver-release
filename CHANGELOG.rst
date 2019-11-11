@@ -2,6 +2,13 @@
 Changelog for package os1_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2019-11-11)
+------------------
+* Merge pull request `#6 <https://github.com/swri-robotics/os1_driver/issues/6>`_ from swri-robotics/add-tbb-dependency
+  add tbb dependency to package.xml
+* add tbb dependency to package.xml
+* Contributors: Daniel D'Souza
+
 0.0.3 (2019-11-08)
 ------------------
 * update jsoncpp dependency
